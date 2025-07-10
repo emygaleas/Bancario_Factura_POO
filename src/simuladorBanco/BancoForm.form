@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="simuladorBanco.BancoForm">
+  <grid id="27dc6" binding="ventanaPrincipal" layout-manager="GridLayoutManager" row-count="6" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="535" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-3354926"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="d7d27" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Consolas" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Cliente:"/>
+        </properties>
+      </component>
+      <component id="b66f2" class="javax.swing.JLabel" binding="nombreClienteLabel">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-11836161"/>
+          <font name="Consolas" style="1"/>
+          <foreground color="-16777216"/>
+          <opaque value="true"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="fb8fd" class="javax.swing.JLabel" binding="saldoLabel">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Consolas" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Saldo Actual:"/>
+        </properties>
+      </component>
+      <component id="e0dff" class="javax.swing.JButton" binding="depositoButton">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-13746530"/>
+          <enabled value="true"/>
+          <font name="Consolas" style="1"/>
+          <foreground color="-394241"/>
+          <text value="Depositar"/>
+        </properties>
+      </component>
+      <component id="7fd25" class="javax.swing.JButton" binding="retiroButton">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-13746530"/>
+          <enabled value="true"/>
+          <font name="Consolas" style="1"/>
+          <foreground color="-394241"/>
+          <text value="Retirar"/>
+        </properties>
+      </component>
+      <component id="913a5" class="javax.swing.JButton" binding="transferenciaButton">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-13746530"/>
+          <font name="Consolas" style="1"/>
+          <foreground color="-394241"/>
+          <text value="Transferir"/>
+        </properties>
+      </component>
+      <component id="5106f" class="javax.swing.JTextArea" binding="historialArea">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="3" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="250" height="100"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-985857"/>
+          <editable value="false"/>
+          <font name="Consolas"/>
+          <foreground color="-16777216"/>
+          <lineWrap value="false"/>
+          <tabSize value="10"/>
+        </properties>
+      </component>
+      <component id="2a5c1" class="javax.swing.JButton" binding="salirButton">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-5887459"/>
+          <enabled value="true"/>
+          <font name="Consolas" style="1"/>
+          <foreground color="-394241"/>
+          <text value="Salir"/>
+        </properties>
+      </component>
+      <component id="a098c" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+          <font name="Consolas" size="14" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Historial"/>
+        </properties>
+      </component>
+      <vspacer id="7436">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+    </children>
+  </grid>
+</form>

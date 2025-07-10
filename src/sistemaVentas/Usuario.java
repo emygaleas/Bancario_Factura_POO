@@ -1,3 +1,5 @@
+package sistemaVentas;
+
 public class Usuario {
     private String usuario;
     private String contrasenia;

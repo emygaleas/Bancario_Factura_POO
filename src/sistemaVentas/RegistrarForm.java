@@ -1,3 +1,5 @@
+package sistemaVentas;
+
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -17,7 +19,7 @@ public class RegistrarForm extends JFrame {
     public RegistrarForm(String usuario){
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setSize(400,300);
-        setTitle("Iniciar sesión");
+        setTitle("REGISTRAR PRODUCTO");
         setLocationRelativeTo(null);
         setContentPane(registroPanel);
         setVisible(true);

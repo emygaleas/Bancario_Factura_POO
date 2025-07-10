@@ -1,3 +1,5 @@
+package sistemaVentas;
+
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -13,7 +15,7 @@ public class MostrarForm extends JFrame {
     public MostrarForm(String usuario){
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setSize(500,350);
-        setTitle("Factura");
+        setTitle("MOSTRAR PRODUCTOS");
         setLocationRelativeTo(null);
         setContentPane(mostrarPanel);
         setVisible(true);

@@ -1,9 +1,10 @@
+package sistemaVentas;
+
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class FacturarForm extends JFrame {
-
     private JTextField codigoField;
     private JTextField nombreField;
     private JButton calcularButton;
@@ -18,8 +19,8 @@ public class FacturarForm extends JFrame {
 
     public FacturarForm(String usuario){
         setDefaultCloseOperation(EXIT_ON_CLOSE);
-        setSize(500,350);
-        setTitle("Factura");
+        setSize(400,350);
+        setTitle("FACTURA");
         setLocationRelativeTo(null);
         setContentPane(facturaPanel);
         setVisible(true);

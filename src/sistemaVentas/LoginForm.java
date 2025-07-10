@@ -1,4 +1,7 @@
+package sistemaVentas;
+
 import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.ArrayList;
@@ -9,18 +12,21 @@ public class LoginForm extends JFrame{
     private JButton limpiarButton;
     private JTextField usuarioField;
     private JPasswordField contraseniaField;
+    private JPanel panelL;
 
     private ArrayList<Usuario> listaUsuarios= new ArrayList<>();
 
     public LoginForm(){
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setSize(400,300);
-        setTitle("Iniciar sesión");
+        setTitle("INICIO DE SESIÓN");
         setLocationRelativeTo(null);
+        panelL.setPreferredSize(new Dimension(350, 275));
         setContentPane(loginPanel);
         setVisible(true);
 
         //datos
+        listaUsuarios.add(new Usuario("cliente123","clave456"));
         listaUsuarios.add(new Usuario("emily","emily"));
         listaUsuarios.add(new Usuario("1","1"));
 
